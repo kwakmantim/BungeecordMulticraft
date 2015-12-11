@@ -27,7 +27,7 @@ public class Main extends Plugin implements Listener
   public void onLeave(PlayerDisconnectEvent e)
       {
       	 // Send fake message to the server that the player is leaving!
-	 System.out.print(e.getPlayer().getName() + " lost connection: *not an actual disconnect reason*");
+	 System.out.print(e.getPlayer().getName() + " lost connection: Disconnected");
       }
       
       
