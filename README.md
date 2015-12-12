@@ -16,7 +16,7 @@ Join:
 player logged in with entity id 0 at
 
 Leave:
-player lost connection: *not an actual disconnect reason*
+player lost connection: Disconnected
 
 OnEnable:
 Done (0,000s)! For help, type help or ?
@@ -30,6 +30,7 @@ Note: This plugin will add extra lines in your console for example when someone 
 ---
 Tested on:
 beastnode.com
+epsilonhosting.nl
 
 (Its possible that it doesn't work on all hosting company's but it should on the most)
 
