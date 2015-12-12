@@ -19,7 +19,7 @@ public class Main extends Plugin implements Listener
   public void onJoin(PostLoginEvent e) 
       {
         // Send fake message to the server that an player joins!
-	System.out.print(e.getPlayer().getName() + " logged in with entity id 0 at");
+	System.out.print(e.getPlayer().getName() + "[" + e.getPlayer().getAddress() + "] logged in with entity id 0 at");
       }
 
 
