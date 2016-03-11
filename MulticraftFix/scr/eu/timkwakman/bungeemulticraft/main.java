@@ -9,8 +9,8 @@ import net.md_5.bungee.event.EventHandler;
 public class Main extends Plugin implements Listener
 {
   public void onEnable()
-      {  
-     	// Send the message that the server is done starting, so it thinks the server is "online"
+      {
+          // Send the message that the server is done starting, so it thinks the server is "online"
 	System.out.print("Done (0,000s)! For help, type help or ?");
 	this.getProxy().getPluginManager().registerListener(this, this);
       }
@@ -29,7 +29,4 @@ public class Main extends Plugin implements Listener
       	 // Send fake message to the server that the player is leaving!
 	 System.out.print(e.getPlayer().getName() + " lost connection: Disconnected");
       }
-      
-      
-      //Code end
 }
